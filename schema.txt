@@ -1,0 +1,85 @@
+Incomplete
+    commissioner
+        year
+        month
+        region_code
+        ccg_code
+        ccg_name
+        treatment_function_code
+        treatment_function_name
+
+        total_incomplete
+        total_within_18
+        total_with_dta
+
+    provider
+        year
+        month
+        region_code
+        provider_code
+        provider_name
+        is_provider
+        treatment_function_code
+        treatment_function_name
+
+        total_incomplete
+        total_within_18
+        total_with_dta
+
+Complete
+    commissioner
+        year
+        month
+        admitted
+        region_code
+        ccg_code
+        ccg_name
+        treatment_function_code
+        treatment_function_name
+
+        total_complete
+        total_complete_within_18
+        total_complete_within_1
+        ...
+        total_complete_within_52
+
+    provider
+        year
+        month
+        admitted
+        region_code
+        provider_code
+        provider_name
+        is_provider
+        treatment_function_code
+        treatment_function_name
+
+        total_complete
+        total_complete_within_18
+        total_complete_within_1
+        ...
+        total_complete_within_52
+
+New
+    commissioner
+        year
+        month
+        region_code
+        ccg_code
+        ccg_name
+        treatment_function_code
+        treatment_function_name
+
+        total_started
+
+    provider
+        year
+        month
+        region_code
+        provider_code
+        provider_name
+        is_provider
+        treatment_function_code
+        treatment_function_name
+        
+        total_started
