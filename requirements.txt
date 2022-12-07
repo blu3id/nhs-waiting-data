@@ -6,7 +6,7 @@ MarkupSafe==1.0
 SQLAlchemy==1.1.10
 Werkzeug==0.12.2
 argparse==1.2.1
-certifi==2017.4.17
+certifi==2022.12.7
 chardet==3.0.3
 click==6.7
 gunicorn==19.7.1
